@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    background-color: white;
+    height: 60vh;
+    width: 23%;
+}
+
+.tasks-container {
+    height: calc(60vh - 50px);
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(119, 217, 217);
+    margin: 0px;
+    height: 50px;
+}
+
+.task {
+    text-align: center;
+    margin: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+}
